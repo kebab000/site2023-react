@@ -56,7 +56,150 @@ const intros = [
         src :"introSlider11.jpg",
         title :"프로필 사진"
     },
-    
+    {
+        src :"introSlider00.jpeg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider01.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider02.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider03.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider04.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider05.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider06.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider07.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider08.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider09.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider10.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider11.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider00.jpeg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider01.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider02.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider03.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider04.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider05.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider06.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider07.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider08.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider09.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider10.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider11.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider00.jpeg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider01.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider02.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider03.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider04.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider05.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider06.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider07.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider08.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider09.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider10.jpg",
+        title :"프로필 사진"
+    },
+    {
+        src :"introSlider11.jpg",
+        title :"프로필 사진"
+    },
 ]
 
 const IntroImg = ({ image }) => {
@@ -72,7 +215,7 @@ const IntroSlider = () => {
             grabCursor={true}
             slidesPerView={8}
             loop={true}
-            spaceBetween={10}
+            spaceBetween={3}
             speed={3000}
             autoplay={{
                 delay: 0,
