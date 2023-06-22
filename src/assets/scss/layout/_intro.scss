@@ -63,3 +63,19 @@
         }
     }
 }
+// intropage
+
+.intro__slider {
+    
+        height: 250px;
+        margin-bottom: 70px;
+        .swiper-wrapper {
+            transition-timing-function: linear;
+        }
+        img {
+            height: 250px;
+
+            object-fit: cover;
+        }
+
+}

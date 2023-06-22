@@ -9,8 +9,16 @@ import React, { useEffect,useState } from 'react'
 
 const MoviePage = () => {
   const [movies, setMovies] = useState([]);
+  const tags = async (query) => {
+    // console.log(query)
+    await fetch(
+      `${query}?api_key=697729d3f274ce88cf5729d38280fd33`,
+    )
+      .then(response => response.json())
+      .then(result => setMovies(result.results))
+      .catch(error => console.log(error));
+  }
   const search = async (query) => {
-   
     await fetch(`https://api.themoviedb.org/3/search/movie?api_key=ec712643f661ae9c053a7a5c3ab5855d&query=${query}`,)
       .then(response => response.json())
       .then(result => setMovies(result.results))
@@ -28,7 +36,7 @@ const MoviePage = () => {
         <ContTitle title='Movie'/>
         <MovieSlider movies = {movies}/>
         <MovieSearch onSearch={search}/>
-        <MovieTag onSearch={search}/>
+        <MovieTag onSearch={tags}/>
         <MovieCont movies = {movies}/>
       </Contents>
   </>

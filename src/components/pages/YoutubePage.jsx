@@ -10,14 +10,14 @@ const YoutubePage = () => {
 
   const search = async(query) => {
    
-    await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=${query}&type=video&key=AIzaSyDu13VB1Y6cnu4y9DKqA3bLgAXuqaw4BFU`)
+    await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=28&q=${query}&type=video&key=AIzaSyDu13VB1Y6cnu4y9DKqA3bLgAXuqaw4BFU`)
       .then(response => response.json())
       .then(result => setYoutubes(result.items))
       .catch(error => console.log('error', error));
   }
 
   useEffect(() => {
-    fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=%EC%BD%94%EB%94%A9%EC%95%A0%ED%94%8C&type=video&key=AIzaSyDu13VB1Y6cnu4y9DKqA3bLgAXuqaw4BFU'
+    fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=28&q=%EC%BD%94%EB%94%A9%EC%95%A0%ED%94%8C&type=video&key=AIzaSyDu13VB1Y6cnu4y9DKqA3bLgAXuqaw4BFU'
     ).then(response => response.json())
     .then((result) => setYoutubes(result.items))
     .catch((error) => console.log(error))

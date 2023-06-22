@@ -12,9 +12,9 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 const Youtube = ({youtube}) => {
   return(
     
-    <a href = {`https://www.youtube.com/watch?v=${youtube.id.videoId}`}>
+    <Link to = {`https://www.youtube.com/watch?v=${youtube.id.videoId}`}>
       <img src={youtube.snippet.thumbnails.medium.url} alt={youtube.snippet.title} />
-    </a>
+    </Link>
   )
 }
 

@@ -11,9 +11,9 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const MovieImg = ({ movie }) => {
   return(
-    <a href={`https://www.themoviedb.org/movie/${movie.id}`}>
+    <Link to={`https://www.themoviedb.org/movie/${movie.id}`}>
       <img src={`https://image.tmdb.org/t/p/w1280/${movie.backdrop_path}`} alt={movie.title} />
-    </a>
+    </Link>
   )
 }
 

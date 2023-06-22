@@ -3,7 +3,6 @@ import Footer from './components/layout/Footer';
 import Header from './components/layout/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home';
-import MemberPage from './components/pages/MemberPage';
 import PortPage from './components/pages/PortPage';
 import YoutubePage from './components/pages/YoutubePage';
 import UnsplashPage from './components/pages/UnsplashPage';

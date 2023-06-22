@@ -9,11 +9,10 @@ const MovieTag = ({onSearch}) => {
   return (
     <div className="movie__tag">
         <ul>
-            <li><Link onClick={() => onClick("romance")} >로맨스 영화</Link></li>
-            <li><Link onClick={() => onClick("comedy")}>코미디 영화</Link></li>
-            <li><Link onClick={() => onClick("action")}>액션 영화</Link></li>
-            <li><Link onClick={() => onClick("classic")}>고전 영화</Link></li>
-            <li><Link onClick={() => onClick("horror")}>공포 영화</Link></li>
+            <li><Link onClick={() => onClick("https://api.themoviedb.org/3/movie/popular")} >인기 영화</Link></li>
+            <li><Link onClick={() => onClick("https://api.themoviedb.org/3/movie/now_playing")}>현재 상영작</Link></li>
+            <li><Link onClick={() => onClick("https://api.themoviedb.org/3/tv/popular")}>인기티비쇼</Link></li>
+            <li><Link onClick={() => onClick("https://api.themoviedb.org/3/tv/top_rated")}>티비쇼 순위</Link></li>
         </ul>
     </div>
   )
