@@ -1,0 +1,112 @@
+// unsplash__wrap
+
+.unsplash__wrap {
+    overflow: hidden;
+
+    .unsplash__inner {
+        height: 500px;
+        .unsplash__text {
+            > h3 {
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 1;
+                margin-bottom: 40px;
+                }
+               > p {
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 1.5;
+                margin-bottom: 25px;
+               }
+               > a {
+                border-radius: 50px;
+               }
+        }
+       
+       .unsplash__item {
+            padding-top: 70px;
+            display: flex;
+            position: absolute;
+            > div {
+                width: 400px;
+                margin-right: 27px;
+
+               
+                > a {
+
+                    > img {
+                        border-radius: 10px;
+                        width: 100%;
+                        height: 226px;
+                    }
+                }
+            }
+       }
+    }
+}
+
+// Unsplash__Page
+.Unsplash__cont {
+
+    ul {
+        column-count: 4;
+
+        li {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.unsplash__search {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    input {
+        border: 1px solid #E8ECF2;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        min-width: 300px;
+        margin-right: 10px;
+    }
+    button {
+        @include button(#4857EC, #fff);
+        // border-radius: 50px;
+    }
+}
+.unsplash__tag {
+
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        li {
+
+            a {
+                border:1px solid #4857EC;
+                padding: 10px 20px;
+                margin: 0 10px;
+                color: #4857EC;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #4857EC;
+
+                }
+            }
+        }
+    }
+}
+.unsplash__slider {
+
+    width: 100%;
+    a {
+        img {
+            height: 350px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+   
+}

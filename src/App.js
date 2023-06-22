@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/pages/Home';
+import MemberPage from './components/pages/MemberPage';
+import PortPage from './components/pages/PortPage';
+import YoutubePage from './components/pages/YoutubePage';
+import UnsplashPage from './components/pages/UnsplashPage';
+import MoviePage from './components/pages/MoviePage';
+import IntroPage from './components/pages/IntroPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Header attr={['header__wrap', 'nexon5', 'bg-blue']}/>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/intro" element={<IntroPage />} />
+        <Route path="/port" element={<PortPage />} />
+        <Route path="/youtube" element={<YoutubePage />} />
+        <Route path="/unsplash" element={<UnsplashPage />} />
+        <Route path="/movie" element={<MoviePage />} />
+    </Routes>
+    <Footer attr={'footer__wrap section nexon5'}/>
+    </BrowserRouter>
   );
 }
 
