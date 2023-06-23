@@ -61,7 +61,7 @@ const ports = [
         name: '김현빈',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port07.png',
-        url: '#',
+        url: 'https://portfolio-hyenobeen.netlify.app/',
         profileImg: 'member07.svg',
     },
     {
@@ -89,7 +89,7 @@ const ports = [
         name: '노지영',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port11.png',
-        url: '#',
+        url: 'https://noji-portfolio.netlify.app/',
         profileImg: 'member11.svg',
     },
     {
@@ -131,7 +131,7 @@ const ports = [
         name: '전윤기',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port18.png',
-        url: '#',
+        url: 'https://myportpolio-e7f37.web.app',
         profileImg: 'member18.svg',
     },
     {
