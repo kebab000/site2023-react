@@ -89,7 +89,7 @@ const ports = [
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port12.png',
         url: 'https://hoongportfolio.netlify.app/',
-        profileImg: 'member12.svg',
+        profileImg: 'member107.svg',
     },
     {
         name: '신동진',
