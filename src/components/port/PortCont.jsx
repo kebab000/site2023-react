@@ -95,7 +95,7 @@ const ports = [
         name: '신동진',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port13.png',
-        url: '#',
+        url: 'https://sdj-portfolio-5a461.web.app/',
         profileImg: 'member13.svg',
     },
     {

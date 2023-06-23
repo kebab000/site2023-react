@@ -54,7 +54,7 @@ const ports = [
         name: '이승연',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port06.png',
-        url: '#',
+        url: 'https://dkdlelw-portfolio.web.app/',
         profileImg: 'member06.svg',
     },
     {
@@ -103,7 +103,7 @@ const ports = [
         name: '신동진',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port13.png',
-        url: '#',
+        url: 'https://sdj-portfolio-5a461.web.app/',
         profileImg: 'member13.svg',
     },
     {
@@ -173,7 +173,7 @@ const PortSlider = () => {
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
-                slidesPerView={4}
+                slidesPerView={3.5}
                 loop={true}
                 spaceBetween={10}
                 speed={6000}
