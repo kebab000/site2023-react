@@ -96,7 +96,7 @@ const ports = [
         name: '이훈규',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port12.png',
-        url: '#',
+        url: 'https://hoongportfolio.netlify.app/',
         profileImg: 'member12.svg',
     },
     {
