@@ -13,8 +13,11 @@
                 width: 32%;
                 .port__header{
                     img {
-                        height: 272px;
+                        width: 98%;
+                        height: 200px;
                         border-radius: 10px;
+                        object-fit: cover;
+                        border: 1px solid #000;
                     }
                 }
                 .port__body {
