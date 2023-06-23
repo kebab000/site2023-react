@@ -19,8 +19,15 @@ const ports = [
         name: '진현미',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port01.png',
-        url: '#',
+        url: 'https://portfolio-hyunmi.netlify.app/',
         profileImg: 'member80.svg',
+    },
+    {
+        name: '천설희',
+        desc: '프론트앤드 개발자 포트폴리오',
+        portImg: 'port05.png',
+        url: 'https://portfolio-313.web.app/',
+        profileImg: 'member05.svg',
     },
     {
         name: '장진용',
@@ -33,22 +40,15 @@ const ports = [
         name: '김도현',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port03.png',
-        url: '#',
+        url: 'https://kdh-portfolio.netlify.app',
         profileImg: 'member03.svg',
     },
     {
         name: '이양구',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port04.png',
-        url: '#',
+        url: 'https://leeyanggoo-portfolio.web.app/',
         profileImg: 'member04.svg',
-    },
-    {
-        name: '천설희',
-        desc: '프론트앤드 개발자 포트폴리오',
-        portImg: 'port05.png',
-        url: '#',
-        profileImg: 'member05.svg',
     },
     {
         name: '이승연',
@@ -68,21 +68,21 @@ const ports = [
         name: '정황우',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port08.png',
-        url: '#',
+        url: 'https://jhwportfolio.netlify.app/',
         profileImg: 'member08.svg',
     },
     {
         name: '여다슬',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port09.png',
-        url: '#',
+        url: 'https://yds-portfo.web.app/',
         profileImg: 'member09.svg',
     },
     {
         name: '이은지',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port10.png',
-        url: '#',
+        url: 'https://my-portfolio-vite.web.app/',
         profileImg: 'member10.svg',
     },
     {
@@ -110,7 +110,7 @@ const ports = [
         name: '김도현',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port15.png',
-        url: '#',
+        url: 'https://portfolio-45429.web.app/',
         profileImg: 'member15.svg',
     },
     {
@@ -124,7 +124,7 @@ const ports = [
         name: '안교남',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port17.png',
-        url: '#',
+        url: 'https://portfolio-18b72.web.app/',
         profileImg: 'member17.svg',
     },
     {
@@ -145,20 +145,20 @@ const ports = [
         name: '정희석',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port20.png',
-        url: '#',
+        url: 'https://getgrovy-port.web.app/',
         profileImg: 'member20.svg',
     },
     {
         name: '이유나',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port21.png',
-        url: '#',
+        url: 'https://yuna-portfolio.web.app/',
         profileImg: 'member21.svg',
     },
 ];
 const PortImg = ({ port }) => {
     return (
-        <a href={port.url}>
+        <a href={port.url} target="_blank" rel="noreferrer">
             <img
                 src={`./assets/images/port/${port.portImg}`}
                 alt={`${port.name}포트폴리오`}
