@@ -9,195 +9,195 @@ import 'swiper/css/bundle';
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 const intros = [
     {
-        src: 'introSlider00.jpeg',
+        src: 'introSlider00-min.jpeg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider01.jpg',
+        src: 'introSlider01-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider02.jpg',
+        src: 'introSlider02-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider03.jpg',
+        src: 'introSlider03-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider04.jpg',
+        src: 'introSlider04-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider05.jpg',
+        src: 'introSlider05-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider06.jpg',
+        src: 'introSlider06-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider07.jpg',
+        src: 'introSlider07-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider08.jpg',
+        src: 'introSlider08-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider09.jpg',
+        src: 'introSlider09-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider10.jpg',
+        src: 'introSlider10-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider11.jpg',
+        src: 'introSlider11-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider00.jpeg',
+        src: 'introSlider00-min.jpeg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider01.jpg',
+        src: 'introSlider01-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider02.jpg',
+        src: 'introSlider02-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider03.jpg',
+        src: 'introSlider03-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider04.jpg',
+        src: 'introSlider04-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider05.jpg',
+        src: 'introSlider05-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider06.jpg',
+        src: 'introSlider06-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider07.jpg',
+        src: 'introSlider07-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider08.jpg',
+        src: 'introSlider08-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider09.jpg',
+        src: 'introSlider09-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider10.jpg',
+        src: 'introSlider10-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider11.jpg',
+        src: 'introSlider11-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider00.jpeg',
+        src: 'introSlider00-min.jpeg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider01.jpg',
+        src: 'introSlider01-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider02.jpg',
+        src: 'introSlider02-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider03.jpg',
+        src: 'introSlider03-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider04.jpg',
+        src: 'introSlider04-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider05.jpg',
+        src: 'introSlider05-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider06.jpg',
+        src: 'introSlider06-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider07.jpg',
+        src: 'introSlider07-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider08.jpg',
+        src: 'introSlider08-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider09.jpg',
+        src: 'introSlider09-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider10.jpg',
+        src: 'introSlider10-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider11.jpg',
+        src: 'introSlider11-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider00.jpeg',
+        src: 'introSlider00-min.jpeg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider01.jpg',
+        src: 'introSlider01-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider02.jpg',
+        src: 'introSlider02-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider03.jpg',
+        src: 'introSlider03-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider04.jpg',
+        src: 'introSlider04-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider05.jpg',
+        src: 'introSlider05-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider06.jpg',
+        src: 'introSlider06-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider07.jpg',
+        src: 'introSlider07-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider08.jpg',
+        src: 'introSlider08-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider09.jpg',
+        src: 'introSlider09-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider10.jpg',
+        src: 'introSlider10-min.jpg',
         title: '프로필 사진',
     },
     {
-        src: 'introSlider11.jpg',
+        src: 'introSlider11-min.jpg',
         title: '프로필 사진',
     },
 ];
