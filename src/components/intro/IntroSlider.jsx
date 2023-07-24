@@ -216,10 +216,10 @@ const IntroSlider = () => {
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
-                slidesPerView={8}
+                slidesPerView={10}
                 loop={true}
                 spaceBetween={3}
-                speed={3000}
+                speed={4000}
                 autoplay={{
                     delay: 0,
                     disableOnInteraction: false,
