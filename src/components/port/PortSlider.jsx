@@ -117,7 +117,7 @@ const ports = [
         name: '변우현',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port16.png',
-        url: '#',
+        url: 'https://fitalux-portfolio-vite-2023.netlify.app/',
         profileImg: 'member16.svg',
     },
     {

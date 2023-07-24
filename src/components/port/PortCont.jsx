@@ -4,7 +4,7 @@ const ports = [
         name: '이요셉',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port00.png',
-        url: 'https://kebab-portfolio.web.app/',
+        url: 'https://kebab00-portfolio2023.netlify.app/',
         profileImg: 'member106.svg',
     },
     {
@@ -67,7 +67,7 @@ const ports = [
         name: '여다슬',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port09.png',
-        url: 'https://yds-portfo.web.app/',
+        url: 'https://portfolio-jjul.web.app/',
         profileImg: 'member09.svg',
     },
     {
@@ -109,7 +109,7 @@ const ports = [
         name: '변우현',
         desc: '프론트앤드 개발자 포트폴리오',
         portImg: 'port16.png',
-        url: '#',
+        url: 'https://fitalux-portfolio-vite-2023.netlify.app/',
         profileImg: 'member16.svg',
     },
     {
