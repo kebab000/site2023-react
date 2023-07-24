@@ -1,4 +1,4 @@
-#react.js로 사이트 만들기
+## react.js를 사용한 사이트 만들기
 
 <img src="https://raw.githubusercontent.com/kebab000/site2023-react/main/src/assets/images/intro/p01.png" />
 <br><br>
