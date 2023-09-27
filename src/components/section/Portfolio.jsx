@@ -12,7 +12,7 @@ const Portfolio = props => {
                         <figure className="port__header">
                             <a href="/">
                                 <img
-                                    src="./assets/images/port/port01.png"
+                                    src="./assets/images/port/port01-min.png"
                                     alt="포트폴리오"
                                 />
                             </a>
@@ -33,7 +33,7 @@ const Portfolio = props => {
                     <div className="port">
                         <figure className="port__header">
                             <img
-                                src="./assets/images/port/port03.png"
+                                src="./assets/images/port/port03-min.png"
                                 alt="포트폴리오"
                             />
                         </figure>
@@ -56,7 +56,7 @@ const Portfolio = props => {
                         <figure className="port__header">
                             <a href="https://leeyanggoo-portfolio.web.app/">
                                 <img
-                                    src="./assets/images/port/port04.png"
+                                    src="./assets/images/port/port04-min.png"
                                     alt="포트폴리오"
                                 />
                             </a>
@@ -78,7 +78,7 @@ const Portfolio = props => {
                         <figure className="port__header">
                             <a href="https://portfolio-313.web.app/">
                                 <img
-                                    src="./assets/images/port/port05.png"
+                                    src="./assets/images/port/port05-min.png"
                                     alt="포트폴리오"
                                 />
                             </a>
@@ -100,7 +100,7 @@ const Portfolio = props => {
                         <figure className="port__header">
                             <a href="https://dkdlelw-portfolio.web.app/">
                                 <img
-                                    src="./assets/images/port/port06.png"
+                                    src="./assets/images/port/port06-min.png"
                                     alt="포트폴리오"
                                 />
                             </a>
@@ -122,7 +122,7 @@ const Portfolio = props => {
                         <figure className="port__header">
                             <a href="https://portfolio-hyenobeen.netlify.app/">
                                 <img
-                                    src="./assets/images/port/port07.png"
+                                    src="./assets/images/port/port07-min.png"
                                     alt="포트폴리오"
                                 />
                             </a>
