@@ -8,7 +8,7 @@ const Movie = (props) => {
           <div className="movie__text">
               <h3>개발자 추천 영화</h3>
               <p>개발에 관련된 영화 목록입니다.<br/> 영화를 보고 개발자에 대해 알아봅시다!</p>
-              <Link to="/" className="button-green">자세히 보기</Link>
+              <Link to="/movie" className="button-green">자세히 보기</Link>
           </div>
           <div className="movie__item">
               <div>

@@ -7,10 +7,19 @@ import YoutubePage from './components/pages/YoutubePage';
 import UnsplashPage from './components/pages/UnsplashPage';
 import MoviePage from './components/pages/MoviePage';
 import IntroPage from './components/pages/IntroPage';
+import { useEffect } from 'react';
+import ScrollToTop from './components/layout/ScrollToTop';
+
 
 function App() {
+    useEffect(() => { 
+        window.onbeforeunload = function pushRefresh() {
+            window.scrollTo(0, 0);
+        };
+    }, []);
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Header attr={['header__wrap', 'nexon5', 'bg-blue']} />
             <Routes>
                 <Route path="/" element={<Home />} />
