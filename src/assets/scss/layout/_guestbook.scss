@@ -1,0 +1,36 @@
+.cont__desc {
+    text-align: center;
+    padding-bottom: 50px;   
+}
+.guestbook__write fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse
+}
+.guestbook__write label {
+    text-indent: -9999px;
+    display: none;
+}
+.guestbook__write input {
+    width: 49.5%;
+    border: 1px solid #A4A4A4;
+    padding: 10px;
+    background-color: transparent;
+
+}
+.guestbook__write input:nth-of-type(2){
+    margin-left: 1%;
+}
+.guestbook__write textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    border: 1px solid #A4A4A4;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+}
+.guestbook__write .commentWriteBtn {
+    
+}

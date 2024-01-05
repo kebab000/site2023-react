@@ -7,6 +7,7 @@ import YoutubePage from './components/pages/YoutubePage';
 import UnsplashPage from './components/pages/UnsplashPage';
 import MoviePage from './components/pages/MoviePage';
 import IntroPage from './components/pages/IntroPage';
+import GusetbookPage from './components/pages/GusetbookPage';
 import { useEffect } from 'react';
 import ScrollToTop from './components/layout/ScrollToTop';
 
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/youtube" element={<YoutubePage />} />
                 <Route path="/unsplash" element={<UnsplashPage />} />
                 <Route path="/movie" element={<MoviePage />} />
+                <Route path="/guest" element={<GusetbookPage />} />
             </Routes>
             <Footer attr={'footer__wrap section nexon5'} />
         </BrowserRouter>

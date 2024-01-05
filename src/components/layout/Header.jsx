@@ -32,6 +32,9 @@ const Header = props => {
                         <li>
                             <Link to="movie">MOVIE</Link>
                         </li>
+                        {/* <li>
+                            <Link to="guest">GUEST</Link>
+                        </li> */}
                     </ul>
                 </nav>
             </div>
